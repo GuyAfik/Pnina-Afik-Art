@@ -113,19 +113,19 @@ function AboutCard() {
             </h3>
             2019- INTERNATIONAL VELASQUES ART PRIZE – Barcelona Spain
             <h3>
+              <br />
+              MAIN WORKING POSITIONS
+            </h3>
             <br />
-            MAIN WORKING POSITIONS
-          </h3>
-          <br />
-          - Art teacher at Mevo'ot Yam, a professional marine studies high school (mainly for boys). 
-          <br />
-          Had established an art workshop in which students were exposed to the world of art, both practical and theoretical. 
-          <br />
-          Her students have acquired and practiced basic drawing, painting and sculpting skills along with history of art. 
-          <br />
-          - Art director of Netanya Municipality
-          <br />
-          - Had established "Zurala", a group of 5 women artists of 5 different disciplines:   painting, sculpture, photography, ceramic and multi discipline art. 
+            - Art teacher at Mevo'ot Yam, a professional marine studies high school (mainly for boys).
+            <br />
+            Had established an art workshop in which students were exposed to the world of art, both practical and theoretical.
+            <br />
+            Her students have acquired and practiced basic drawing, painting and sculpting skills along with history of art.
+            <br />
+            - Art director of Netanya Municipality
+            <br />
+            - Had established "Zurala", a group of 5 women artists of 5 different disciplines:   painting, sculpture, photography, ceramic and multi discipline art.
           </p>
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
