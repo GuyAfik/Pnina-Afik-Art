@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa"
 
 function Footer() {
   let date = new Date();
@@ -20,43 +21,24 @@ function Footer() {
           <h3>Copyright © {year} SB</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+          <h3>Contact Pnina Afik</h3>
+          <ul className="home-about-social-links">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://www.facebook.com/pnina.afik/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
               >
-                <AiFillGithub />
+                <FaFacebook />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://www.instagram.com/pninaafik/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
               >
                 <AiFillInstagram />
               </a>
