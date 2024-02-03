@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./HomeGallery.css";
+
 
 const Gallery = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

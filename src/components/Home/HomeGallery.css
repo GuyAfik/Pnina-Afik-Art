@@ -1,4 +1,4 @@
-/* Gallery.css */
+/* HomeGallery.css */
 
 .gallery-container {
     position: relative;
@@ -25,8 +25,7 @@
     cursor: pointer;
     color: #333;
     padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s;
-  
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
   }
   
   .gallery-buttons button:hover {
