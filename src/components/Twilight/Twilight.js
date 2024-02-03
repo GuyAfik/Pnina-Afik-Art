@@ -31,9 +31,11 @@ const Twilight = () => {
   };
 
   return (
-    <div>
-      <h1>Twilight</h1>
-      <p>This is some text on the top of the page.</p>
+    <div className="twilight-page">
+      <h1>Paintings</h1>
+      <p>Painting has been a main technique in my art for many years.
+These days my interest in installation has increased, but I often
+return to painting, insisting not to neglect my painting skills.</p>
       <div className="twilight-gallery-container">
         <div className="twilight-preview">
           {images.map((image, index) => (

@@ -1,5 +1,17 @@
 /* Twilight.css */
 
+.twilight-page {
+  background-color: black;
+  color: white; /* Set text color to white for better visibility */
+  padding: 50px
+}
+
+.twilight-gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .twilight-gallery-container {
   display: flex;
   flex-direction: column;
