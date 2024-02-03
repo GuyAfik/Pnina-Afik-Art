@@ -2,10 +2,21 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/about.png";
 import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+import Contact from "./Contact";
+import HomeGallery from "./HomeGallery"
 
 function Home() {
+  const images = [
+    "/home/images/image1.jpg",
+    "/home/images/image2.jpg",
+    "/home/images/image3.jpg",
+    "/home/images/image4.jpg",
+    "/home/images/image5.jpg",
+    "/home/images/image6.jpg",
+    "/home/images/image7.jpg",
+    "/home/images/image8.jpg",
+    "/home/images/image9.jpg",
+  ];
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -40,7 +51,8 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <HomeGallery images={images} />
+      <Contact />
     </section>
   );
 }

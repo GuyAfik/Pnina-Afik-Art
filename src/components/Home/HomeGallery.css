@@ -1,0 +1,35 @@
+/* Gallery.css */
+
+.gallery-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px; /* Adjust the padding as needed */
+  }
+  
+  .gallery-buttons button {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+  
+  }
+  
+  .gallery-buttons button:hover {
+    background-color: #333;
+    color: #fff;
+  }
