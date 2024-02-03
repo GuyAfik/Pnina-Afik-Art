@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Gallery from "./components/Gallery/Gallery";
 import Twilight from "./components/Twilight/Twilight";
 import BranchesAndStockings from "./components/BranchesAndStockings/BranchesAndStockings";
+import ClothCompositions from "./components/ClothCompositions/ClothCompositions";
 
 import {
   BrowserRouter as Router,
@@ -42,6 +43,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/gallery/twilight" element={<Twilight />} />
           <Route path="/gallery/branches-and-stockings" element={<BranchesAndStockings />} />
+          <Route path="/gallery/cloth-compositions" element={<ClothCompositions />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

@@ -18,6 +18,12 @@ const Gallery = () => {
       imageSrc: "/gallery/BranchesAndStockings/image1.jpg",
       to: "/gallery/branches-and-stockings",
     },
+    {
+      id: 3,
+      headline: "Cloth Compositions",
+      imageSrc: "/gallery/clothCompositions/image1.jpg",
+      to: "/gallery/cloth-compositions",
+    },
   ];
 
   return (
