@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Pnina-Afik-Art/static/css/main.d55ce739.css",
-    "main.js": "/Pnina-Afik-Art/static/js/main.c0b4d550.js",
+    "main.js": "/Pnina-Afik-Art/static/js/main.aeb50240.js",
     "static/js/415.fc063c41.chunk.js": "/Pnina-Afik-Art/static/js/415.fc063c41.chunk.js",
     "static/js/787.f6e65957.chunk.js": "/Pnina-Afik-Art/static/js/787.f6e65957.chunk.js",
     "static/media/about.png": "/Pnina-Afik-Art/static/media/about.a4bf12b3329f7e30b159.png",
     "static/media/home-bg.jpg": "/Pnina-Afik-Art/static/media/home-bg.63bc285396d85a702cb5.jpg",
     "index.html": "/Pnina-Afik-Art/index.html",
     "main.d55ce739.css.map": "/Pnina-Afik-Art/static/css/main.d55ce739.css.map",
-    "main.c0b4d550.js.map": "/Pnina-Afik-Art/static/js/main.c0b4d550.js.map",
+    "main.aeb50240.js.map": "/Pnina-Afik-Art/static/js/main.aeb50240.js.map",
     "415.fc063c41.chunk.js.map": "/Pnina-Afik-Art/static/js/415.fc063c41.chunk.js.map",
     "787.f6e65957.chunk.js.map": "/Pnina-Afik-Art/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d55ce739.css",
-    "static/js/main.c0b4d550.js"
+    "static/js/main.aeb50240.js"
   ]
 }
