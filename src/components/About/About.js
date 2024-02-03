@@ -30,16 +30,6 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        {/* <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack /> */}
-
-        {/* <Github /> */}
-
-        {/* Video Section */}
         <Row style={{ justifyContent: "center" }}>
           <Col md={12} style={{ textAlign: "center" }}>
             <h1 className="project-heading">
@@ -52,6 +42,17 @@ function About() {
               />
               Your browser does not support the video tag.
             </video>
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", marginTop: "20px" }}>
+          <h1 className="project-heading">
+            <strong className="purple">Solo Exhibition - Tova Osman Gallery</strong>
+          </h1>
+          <Col md={6} style={{ textAlign: "center" }}>
+            <img src="/about/images/image1.jpg" alt="Image 1" className="img-fluid" />
+          </Col>
+          <Col md={6} style={{ textAlign: "center" }}>
+            <img src="/about/images/image2.jpg" alt="Image 2" className="img-fluid" />
           </Col>
         </Row>
       </Container>
