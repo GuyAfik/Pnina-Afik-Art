@@ -105,7 +105,7 @@ function AboutCard() {
             - 44 Degrees Online Art Magazine - 31st Edition- "There Are no Sweet Wars" - https://issuu.com/44degrees/docs/44degrees-
             <br />
             - Landscape Art Review Online Magazine- 10th edition- 24 page. Interview article Published mid-September 2019
-            <br />
+
             https://issuu.com/land.previews/docs/pninaafikpreviewlandescapeartreview
             <h3>
               <br />

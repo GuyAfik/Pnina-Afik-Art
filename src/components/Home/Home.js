@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/about.png";
-import Particle from "../Particle";
 import Contact from "./Contact";
 import HomeGallery from "./HomeGallery"
 
