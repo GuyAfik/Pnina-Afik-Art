@@ -14,9 +14,9 @@ const Gallery = () => {
     },
     {
       id: 2,
-      headline: "Pockets",
-      imageSrc: "/gallery/pockets/image1.jpg",
-      to: "/gallery/pockets",
+      headline: "Branches And Stockings",
+      imageSrc: "/gallery/BranchesAndStockings/image1.jpg",
+      to: "/gallery/branches-and-stockings",
     },
   ];
 

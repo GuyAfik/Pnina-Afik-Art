@@ -37,7 +37,7 @@ function About() {
             </h1>
             <video width="640" height="360" controls>
               <source
-                src="/home/videos/movie.mp4"
+                src="/about/videos/solo-exhibition-ein-hod.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
