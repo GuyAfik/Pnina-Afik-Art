@@ -1,15 +1,15 @@
 /* Gallery.css */
 
 .gallery-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px; /* Add margin to move the entire gallery down */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Add gap between columns */
+    justify-content: center;
+    margin-top: 100px;
   }
   
   .gallery-item {
     position: relative;
-    margin-bottom: 20px;
   }
   
   .gallery-image {
@@ -28,4 +28,3 @@
     padding: 10px;
     border-radius: 5px;
   }
-  

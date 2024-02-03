@@ -21,6 +21,7 @@ const Gallery = () => {
   ];
 
   return (
+    
     <div className="gallery-container">
       {galleryData.map((item) => (
         <Link to={item.to} key={item.id} className="gallery-item">
