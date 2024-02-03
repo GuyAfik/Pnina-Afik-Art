@@ -15,7 +15,7 @@ const Gallery = () => {
     {
       id: 2,
       headline: "Pockets",
-      imageSrc: "/gallery/twilight/image2.jpg",
+      imageSrc: "/gallery/pockets/image1.jpg",
       to: "/pockets",
     },
   ];

@@ -7,6 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Gallery from "./components/Gallery/Gallery";
+import Twilight from "./components/Twilight/Twilight";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -39,6 +41,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/twilight" element={<Twilight />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
