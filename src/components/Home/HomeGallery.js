@@ -16,8 +16,8 @@ const Gallery = ({ images }) => {
   };
 
   return (
-    <div className="gallery-container">
-      <div className="gallery-buttons">
+    <div className="home-gallery-container">
+      <div className="home-gallery-buttons">
         <button onClick={handlePrev}>&lt; Prev</button>
         <button onClick={handleNext}>Next &gt;</button>
       </div>
