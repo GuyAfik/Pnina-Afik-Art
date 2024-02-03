@@ -41,7 +41,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/twilight" element={<Twilight />} />
+          <Route path="/gallery/twilight" element={<Twilight />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

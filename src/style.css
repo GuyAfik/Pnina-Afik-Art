@@ -255,14 +255,16 @@ button:focus {
 }
 
 .home-section {
-  position: relative;
+  position: relative !important;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-color: black; /* Set a default black background */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
+
 
 .home-content {
   padding: 9rem 0 2rem !important;

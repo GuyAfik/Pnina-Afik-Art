@@ -6,13 +6,13 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa"
+import { FaFacebook } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" style={{ backgroundColor: "black" }}>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Developed by Guy Afik</h3>

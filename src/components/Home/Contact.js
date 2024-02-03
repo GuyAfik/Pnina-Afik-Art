@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
+import Particle from "../Particle";
 
 function Contact() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="about" style={{ backgroundColor: "black" }}>
+      <Particle />
       <Container>
         <Row>
           <Col md={12} className="home-about-social">
@@ -41,4 +41,5 @@ function Contact() {
     </Container>
   );
 }
+
 export default Contact;

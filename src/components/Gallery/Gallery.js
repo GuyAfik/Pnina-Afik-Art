@@ -10,13 +10,13 @@ const Gallery = () => {
       id: 1,
       headline: "Twilight",
       imageSrc: "/gallery/twilight/image1.jpg",
-      to: "/twilight",
+      to: "/gallery/twilight",
     },
     {
       id: 2,
       headline: "Pockets",
       imageSrc: "/gallery/pockets/image1.jpg",
-      to: "/pockets",
+      to: "/gallery/pockets",
     },
   ];
 
