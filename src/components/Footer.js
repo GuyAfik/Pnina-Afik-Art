@@ -18,7 +18,7 @@ function Footer() {
           <h3>Developed by Guy Afik</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} Pnina Afik</h3>
         </Col>
         <Col md="4" className="footer-body">
           <h3>Contact Pnina Afik</h3>
