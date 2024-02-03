@@ -18,12 +18,10 @@ const Gallery = () => {
       imageSrc: "/gallery/twilight/image2.jpg",
       to: "/pockets",
     },
-    // Add more photo data as needed
   ];
 
   return (
     <div className="gallery-container">
-      <h1>Gallery</h1>
       {galleryData.map((item) => (
         <Link to={item.to} key={item.id} className="gallery-item">
           <img

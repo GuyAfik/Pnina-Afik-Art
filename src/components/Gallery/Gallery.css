@@ -4,11 +4,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px; /* Add margin to move the entire gallery down */
   }
   
   .gallery-item {
     position: relative;
-    margin-bottom: 20px; /* Add spacing between gallery items */
+    margin-bottom: 20px;
   }
   
   .gallery-image {
@@ -19,12 +20,12 @@
   
   .gallery-headline {
     position: absolute;
-    top: 10px; /* Adjust the top spacing as needed */
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    color: #fff; /* Set the color for the headline */
-    background: rgba(0, 0, 0, 0.7); /* Add a background overlay for better visibility */
-    padding: 10px; /* Adjust padding as needed */
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
     border-radius: 5px;
   }
   
