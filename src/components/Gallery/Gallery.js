@@ -24,6 +24,12 @@ const Gallery = () => {
       imageSrc: "/gallery/clothCompositions/image1.jpg",
       to: "/gallery/cloth-compositions",
     },
+    {
+      id: 4,
+      headline: "Oversized Installations",
+      imageSrc: "/gallery/oversizedInstallations/image1.jpg",
+      to: "/gallery/oversized-installations",
+    },
   ];
 
   return (
