@@ -10,9 +10,9 @@ import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { FaBrush } from "react-icons/fa";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -87,7 +87,7 @@ function NavBar() {
                 to="/gallery"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <FaBrush
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Gallery
