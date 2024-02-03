@@ -42,6 +42,22 @@ function About() {
         <Toolstack /> */}
 
         {/* <Github /> */}
+
+        {/* Video Section */}
+        <Row style={{ justifyContent: "center" }}>
+          <Col md={12} style={{ textAlign: "center" }}>
+            <h1 className="project-heading">
+              <strong className="purple">Solo Exhibition - Ein Hod</strong>
+            </h1>
+            <video width="640" height="360" controls>
+              <source
+                src="/home/videos/movie.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
