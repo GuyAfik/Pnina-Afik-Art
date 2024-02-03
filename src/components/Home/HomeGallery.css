@@ -5,16 +5,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center; /* Center the content horizontally */
   }
   
   .home-gallery-buttons {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    margin: auto; /* Center the buttons horizontally */
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 0 20px; /* Adjust the padding as needed */
+    width: 200px; /* Fixed width for the buttons container */
   }
   
   .home-gallery-buttons button {
@@ -32,3 +30,4 @@
     background-color: #333;
     color: #fff;
   }
+  
