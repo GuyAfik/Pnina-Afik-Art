@@ -127,10 +127,6 @@ function AboutCard() {
             <br />
             - Had established "Zurala", a group of 5 women artists of 5 different disciplines:   painting, sculpture, photography, ceramic and multi discipline art.
           </p>
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

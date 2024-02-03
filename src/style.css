@@ -25,7 +25,7 @@ button:focus {
 /* --------- */
 /*  Preloader */
 /* --------- */
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@ button:focus {
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 #preloader-none {
   opacity: 0;
