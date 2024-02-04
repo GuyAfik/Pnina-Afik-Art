@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://GuyAfik.github.io/Pnina-Afik-Art",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
@@ -25,7 +24,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
