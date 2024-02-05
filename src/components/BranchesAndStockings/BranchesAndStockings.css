@@ -1,49 +1,49 @@
 /* BranchesAndStockings.css */
 
 .branches-and-stockings-page {
-    background-color: black;
-    color: white; /* Set text color to white for better visibility */
+    background-color: white;
+    color: black; /* Set text color to black for better visibility */
     padding: 50px;
-}
-
-.branches-and-stockings-gallery-container {
+  }
+  
+  .branches-and-stockings-gallery-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.branches-and-stockings-preview {
+  }
+  
+  .branches-and-stockings-preview {
     display: flex;
     justify-content: center;
     gap: 10px; /* Increase the gap between thumbnails if needed */
-}
-
-.thumbnail {
+  }
+  
+  .thumbnail {
     width: 200px; /* Adjust the width of the thumbnails */
     height: 200px; /* Adjust the height of the thumbnails */
     object-fit: cover;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.thumbnail.active {
+  }
+  
+  .thumbnail.active {
     border: 2px solid #333; /* Border for the active thumbnail */
-}
-
-.branches-and-stockings-main {
+  }
+  
+  .branches-and-stockings-main {
     display: flex;
     align-items: center;
     gap: 20px;
-}
-
-.branches-and-stockings-gallery-image {
+  }
+  
+  .branches-and-stockings-gallery-image {
     max-width: 100%;
     max-height: 70vh;
     object-fit: contain;
-}
-
-/* Style for navigation buttons */
-.branches-and-stockings-gallery-container button {
+  }
+  
+  /* Style for navigation buttons */
+  .branches-and-stockings-gallery-container button {
     background-color: #fff;
     border: 1px solid #333;
     border-radius: 5px;
@@ -52,9 +52,10 @@
     color: #333;
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-}
-
-.branches-and-stockings-gallery-container button:hover {
+  }
+  
+  .branches-and-stockings-gallery-container button:hover {
     background-color: #333;
     color: #fff;
-}
+  }
+  

@@ -1,3 +1,5 @@
+// Paintings.js
+
 import React, { useState } from "react";
 import "./Paintings.css";
 
