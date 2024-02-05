@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "www.pnina-afik-art.com",
+  "homepage": "https://guyafik.github.io/Pnina-Afik-Art",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
