@@ -8,8 +8,8 @@ const Gallery = () => {
   const galleryData = [
     {
       id: 1,
-      headline: "Twilight",
-      imageSrc: "/gallery/twilight/image1.jpg",
+      headline: "Paintings",
+      imageSrc: "/gallery/paintings/image1.jpg",
       to: "/gallery/twilight",
     },
     {
