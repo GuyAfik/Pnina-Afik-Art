@@ -17,6 +17,7 @@
     justify-content: center;
     gap: 10px;
     overflow-x: auto;
+    flex-wrap: wrap; /* Allow thumbnails to wrap to a new line */
   }
   
   .thumbnail {
@@ -25,6 +26,7 @@
     object-fit: cover;
     border-radius: 5px;
     cursor: pointer;
+    max-width: 100%; /* Ensure thumbnails don't exceed their container's width */
   }
   
   .thumbnail.active {
