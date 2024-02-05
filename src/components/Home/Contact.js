@@ -6,12 +6,12 @@ import Particle from "../Particle";
 
 function Contact() {
   return (
-    <Container fluid className="home-about-section" id="about" style={{ backgroundColor: "black" }}>
+    <Container fluid className="home-about-section" id="about" style={{ backgroundColor: "white" }}>
       <Particle />
       <Container>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Contact Me</h1>
+            <h1 style={{ color: "black" }}>Contact Me</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
