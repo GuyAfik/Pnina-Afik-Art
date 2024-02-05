@@ -42,7 +42,7 @@ const ClothCompositions = () => {
     <div className="cloth-compositions-page">
       {viewMode && (
         <div className="better-view-mode">
-          <button className="exit-button" onClick={handleCloseViewMode}>
+          <button className="close-button" onClick={handleCloseViewMode}>
             X
           </button>
           <img
