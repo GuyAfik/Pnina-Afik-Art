@@ -1,36 +1,34 @@
 /* HomeGallery.css */
 
 .home-gallery-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center; /* Center the content horizontally */
-  background-color: black; /* Set a black background */
-  height: 100vh; /* Make sure the container takes the full height of the viewport */
+  margin-top: 50px;
+  background-color: #fff; /* Set background color to white */
 }
 
-  
-  .home-gallery-buttons {
-    margin: auto; /* Center the buttons horizontally */
-    display: flex;
-    justify-content: space-between;
-    width: 200px; /* Fixed width for the buttons container */
-  }
-  
-  .home-gallery-buttons button {
-    background-color: #fff;
-    border: 1px solid #333;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    color: #333;
-    padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-  }
-  
-  .home-gallery-buttons button:hover {
-    background-color: #333;
-    color: #fff;
-  }
-  
+.home-gallery-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.home-gallery-buttons button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.home-gallery-buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.home-gallery-image {
+  height: calc(100vh - 60px);
+  width: auto;
+  object-fit: contain;
+}

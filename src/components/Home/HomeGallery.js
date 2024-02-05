@@ -1,26 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./HomeGallery.css";
 
-
-const Gallery = ({ images }) => {
+const HomeGallery = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000);
 
-  const handlePrev = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
-    );
-  };
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentIndex, images.length]);
 
   return (
     <div className="home-gallery-container">
-      <div className="home-gallery-buttons">
-        <button onClick={handlePrev}>&lt; Prev</button>
-        <button onClick={handleNext}>Next &gt;</button>
-      </div>
       <img
         src={images[currentIndex]}
         alt={`Image ${currentIndex}`}
@@ -30,4 +25,4 @@ const Gallery = ({ images }) => {
   );
 };
 
-export default Gallery;
+export default HomeGallery;
