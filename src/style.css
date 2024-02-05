@@ -452,9 +452,10 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  background-color: white !important;
+  color: black !important;
 }
+
 
 .tech-icons {
   font-size: 4.5em !important;
