@@ -1,5 +1,4 @@
 // BranchesAndStockings.js
-
 import React, { useState } from "react";
 import "./BranchesAndStockings.css";
 
@@ -15,6 +14,7 @@ const BranchesAndStockings = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [viewMode, setViewMode] = useState(false);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -28,15 +28,41 @@ const BranchesAndStockings = () => {
 
   const handleThumbnailClick = (index) => {
     setCurrentIndex(index);
+    setViewMode(true);
+  };
+
+  const handleCloseViewMode = () => {
+    setViewMode(false);
   };
 
   return (
     <div className="branches-and-stockings-page">
+      {viewMode && (
+        <div className="better-view-mode">
+          <button className="exit-button" onClick={handleCloseViewMode}>
+            X
+          </button>
+          <img
+            src={images[currentIndex]}
+            alt={`Image ${currentIndex + 1}`}
+            className="better-view-image"
+            onClick={handleCloseViewMode} // Close view mode when clicking on the image
+          />
+          <button className="prev-button" onClick={handlePrev}>
+            &lt; Prev
+          </button>
+          <button className="next-button" onClick={handleNext}>
+            Next &gt;
+          </button>
+        </div>
+      )}
+
       <h1>Branches and Stockings</h1>
       <p>
         I use branches or wood together with stuffed stockings, tying them up
         with ropes, creating a multi-material sculpture.
       </p>
+
       <div className="branches-and-stockings-gallery-container">
         <div className="branches-and-stockings-preview">
           {images.map((image, index) => (
@@ -52,13 +78,12 @@ const BranchesAndStockings = () => {
           ))}
         </div>
         <div className="branches-and-stockings-main">
-          <button onClick={handlePrev}>&lt; Prev</button>
           <img
             src={images[currentIndex]}
             alt={`Image ${currentIndex + 1}`}
             className="branches-and-stockings-gallery-image"
+            onClick={() => setViewMode(true)}
           />
-          <button onClick={handleNext}>Next &gt;</button>
         </div>
       </div>
     </div>
