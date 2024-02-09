@@ -7,7 +7,7 @@ const HomeGallery = ({ images }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 2000);
 
     return () => {
       clearInterval(interval);

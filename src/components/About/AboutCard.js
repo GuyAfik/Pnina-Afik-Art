@@ -19,6 +19,12 @@ function AboutCard() {
               <br />
               RECENT SOLO EXHIBITIONS
             </h3>
+            2024
+            <br />
+            <br />
+            HOW TO VOWELIZE A VOWEL kubia (cube) 6 Tel Aviv curators: Gilit Levine Ronen, Ruthie Sagi
+            <br />
+            <br />
             2023-24
             <br />
             <br />
