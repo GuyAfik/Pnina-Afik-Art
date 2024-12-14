@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery/Gallery";
 import Paintings from "./components/Paintings/Paintings";
-import BranchesAndStockings from "./components/BranchesAndStockings/BranchesAndStockings";
+import Installations from "./components/Installations/Installations";
 import ClothCompositions from "./components/ClothCompositions/ClothCompositions";
 import OversizedInstallations from "./components/OversizedInstallations/OversizedInstallations";
 
@@ -43,7 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/gallery/twilight" element={<Paintings />} />
-          <Route path="/gallery/branches-and-stockings" element={<BranchesAndStockings />} />
+          <Route path="/gallery/installations" element={<Installations />} />
           <Route path="/gallery/cloth-compositions" element={<ClothCompositions />} />
           <Route path="/gallery/oversized-installations" element={<OversizedInstallations />} />
           <Route path="*" element={<Navigate to="/"/>} />

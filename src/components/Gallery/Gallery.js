@@ -12,17 +12,23 @@ const Gallery = () => {
       imageSrc: "/gallery/paintings/image8.jpg",
       to: "/gallery/twilight",
     },
+    // {
+    //   id: 2,
+    //   headline: "Branches And Stockings",
+    //   imageSrc: "/gallery/BranchesAndStockings/image1.jpg",
+    //   to: "/gallery/branches-and-stockings",
+    // },
     {
       id: 2,
-      headline: "Branches And Stockings",
-      imageSrc: "/gallery/BranchesAndStockings/image1.jpg",
-      to: "/gallery/branches-and-stockings",
-    },
-    {
-      id: 3,
       headline: "Cloth Compositions",
       imageSrc: "/gallery/clothCompositions/image1.jpg",
       to: "/gallery/cloth-compositions",
+    },
+    {
+      id: 3,
+      headline: "Installations",
+      imageSrc: "/gallery/installations/image1.jpg",
+      to: "/gallery/installations",
     },
     {
       id: 4,
