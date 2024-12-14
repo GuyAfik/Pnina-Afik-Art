@@ -14,6 +14,8 @@ const Paintings = () => {
     "/gallery/paintings/image7.jpg",
     "/gallery/paintings/image8.jpg",
     "/gallery/paintings/image9.jpg",
+    "/gallery/paintings/image10.jpg",
+    "/gallery/paintings/image11.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,14 +60,6 @@ const Paintings = () => {
           </button>
         </div>
       )}
-
-      <h1>Paintings</h1>
-      <p>
-        Painting has been a main technique in my art for many years. These days
-        my interest in installation has increased, but I often return to
-        painting, insisting not to neglect my painting skills.
-      </p>
-
       <div className="paintings-gallery-container">
         <div className="paintings-preview">
           {images.map((image, index) => (
