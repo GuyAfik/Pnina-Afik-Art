@@ -1,0 +1,122 @@
+/* Installations.css */
+
+.installations-page {
+  background-color: white; /* White background */
+  color: black; /* Set text color to black for better visibility */
+  padding: 100px;
+}
+
+.installations-gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.installations-preview {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Adjust the gap between thumbnails */
+}
+
+.thumbnail {
+  width: 250px; /* Adjust the width of the thumbnails */
+  height: 250px; /* Adjust the height of the thumbnails */
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.thumbnail.active {
+  border: 2px solid #333; /* Border for active thumbnail */
+}
+
+.installations-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.installations-gallery-image {
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+/* Style for navigation buttons */
+.installations-gallery-container button {
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.installations-gallery-container button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Better view mode */
+.better-view-mode {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.better-view-image {
+  max-width: 80%; /* Adjust the max-width as needed */
+  max-height: 80vh; /* Adjust the max-height as needed */
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev-button,
+.next-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev-button {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.next-button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+/* Ensuring text visibility */
+h1, p {
+  color: black; /* Ensure text color is black */
+  font-size: 18px; /* Adjust font size */
+  margin-bottom: 20px; /* Add spacing below text */
+}
+
+h1 {
+  font-size: 2rem; /* Increase the font size for the title */
+  margin-bottom: 30px;
+}

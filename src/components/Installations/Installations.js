@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Installations.css"; // Ensure this points to the correct CSS file
+import "./Installations.css"; // Make sure this points to the correct CSS file
 
 const Installations = () => {
   const images = [
@@ -46,7 +46,6 @@ const Installations = () => {
             src={images[currentIndex]}
             alt={`Image ${currentIndex + 1}`}
             className="better-view-image"
-            onClick={handleCloseViewMode} // Close view mode when clicking on the image
           />
           <button className="prev-button" onClick={handlePrev}>
             &lt; Prev
@@ -56,12 +55,6 @@ const Installations = () => {
           </button>
         </div>
       )}
-
-      <h1>Installations</h1>
-      <p>
-        This section features various installations using different materials, such as wood and fabric.
-      </p>
-
       <div className="installations-gallery-container">
         <div className="installations-preview">
           {images.map((image, index) => (
