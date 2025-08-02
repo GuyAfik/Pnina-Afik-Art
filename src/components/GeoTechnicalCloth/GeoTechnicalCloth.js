@@ -1,21 +1,21 @@
 import React, { useState } from "react";
-import "./Installations.css"; // Make sure this points to the correct CSS file
+import "./GeoTechnicalCloth.css"; // Make sure the CSS file is renamed accordingly
 
-const Installations = () => {
+const GeoTechnicalCloth = () => {
   const images = [
-    "/gallery/installations/image1.jpg",
-    "/gallery/installations/image2.jpg",
-    "/gallery/installations/image3.jpg",
-    "/gallery/installations/image4.jpg",
-    "/gallery/installations/image5.jpg",
-    "/gallery/installations/image6.jpg",
-    "/gallery/installations/image7.jpg",
-    "/gallery/installations/image8.jpg",
-    "/gallery/installations/image9.jpg",
-    "/gallery/installations/image10.jpg",
-    "/gallery/installations/image11.jpg",
-    "/gallery/installations/image12.jpg",
-    "/gallery/installations/image13.jpg",
+    "/gallery/geoTechnicalCloth/image1.jpg",
+    "/gallery/geoTechnicalCloth/image2.jpg",
+    "/gallery/geoTechnicalCloth/image3.jpg",
+    "/gallery/geoTechnicalCloth/image4.jpg",
+    "/gallery/geoTechnicalCloth/image5.jpg",
+    "/gallery/geoTechnicalCloth/image6.jpg",
+    "/gallery/geoTechnicalCloth/image7.jpg",
+    "/gallery/geoTechnicalCloth/image8.jpg",
+    "/gallery/geoTechnicalCloth/image9.jpg",
+    "/gallery/geoTechnicalCloth/image10.jpg",
+    "/gallery/geoTechnicalCloth/image11.jpg",
+    "/gallery/geoTechnicalCloth/image12.jpg",
+    "/gallery/geoTechnicalCloth/image13.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,7 +41,7 @@ const Installations = () => {
   };
 
   return (
-    <div className="installations-page">
+    <div className="geo-technical-page">
       {viewMode && (
         <div className="better-view-mode">
           <button className="close-button" onClick={handleCloseViewMode}>
@@ -60,8 +60,8 @@ const Installations = () => {
           </button>
         </div>
       )}
-      <div className="installations-gallery-container">
-        <div className="installations-preview">
+      <div className="geo-technical-gallery-container">
+        <div className="geo-technical-preview">
           {images.map((image, index) => (
             <img
               key={index}
@@ -74,11 +74,11 @@ const Installations = () => {
             />
           ))}
         </div>
-        <div className="installations-main">
+        <div className="geo-technical-main">
           <img
             src={images[currentIndex]}
             alt={`Image ${currentIndex + 1}`}
-            className="installations-gallery-image"
+            className="geo-technical-gallery-image"
             onClick={() => setViewMode(true)}
           />
         </div>
@@ -87,4 +87,4 @@ const Installations = () => {
   );
 };
 
-export default Installations;
+export default GeoTechnicalCloth;
