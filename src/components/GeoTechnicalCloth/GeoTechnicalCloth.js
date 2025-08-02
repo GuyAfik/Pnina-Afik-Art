@@ -5,11 +5,7 @@ const GeoTechnicalCloth = () => {
   const images = [
     "/gallery/geoTechnicalCloth/image1.jpg",
     "/gallery/geoTechnicalCloth/image2.jpg",
-    "/gallery/geoTechnicalCloth/image3.jpg",
     "/gallery/geoTechnicalCloth/image4.jpg",
-    "/gallery/geoTechnicalCloth/image5.jpg",
-    "/gallery/geoTechnicalCloth/image6.jpg",
-    "/gallery/geoTechnicalCloth/image7.jpg",
     "/gallery/geoTechnicalCloth/image8.jpg",
     "/gallery/geoTechnicalCloth/image9.jpg",
     "/gallery/geoTechnicalCloth/image10.jpg",
