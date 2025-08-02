@@ -9,7 +9,7 @@ const Gallery = () => {
     {
       id: 1,
       headline: "Paintings",
-      imageSrc: "/gallery/paintings/image8.jpg",
+      imageSrc: "/gallery/paintings/image4.jpg",
       to: "/gallery/twilight",
     },
     // {
