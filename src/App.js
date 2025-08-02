@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery/Gallery";
 import Paintings from "./components/Paintings/Paintings";
-import Installations from "./components/Installations/Installations";
+import GeoTechnicalCloth from "./components/GeoTechnicalCloth/GeoTechnicalCloth";
 import ClothCompositions from "./components/ClothCompositions/ClothCompositions";
 import OversizedInstallations from "./components/OversizedInstallations/OversizedInstallations";
 
@@ -32,7 +32,7 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  return (
+return (
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -43,7 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/gallery/twilight" element={<Paintings />} />
-          <Route path="/gallery/installations" element={<Installations />} />
+          <Route path="/gallery/geoTechnicalCloth" element={<GeoTechnicalCloth />} />
           <Route path="/gallery/cloth-compositions" element={<ClothCompositions />} />
           <Route path="/gallery/oversized-installations" element={<OversizedInstallations />} />
           <Route path="*" element={<Navigate to="/"/>} />

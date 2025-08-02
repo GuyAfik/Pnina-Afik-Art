@@ -1,18 +1,18 @@
-/* Installations.css */
+/* GeoTechnicalCloth.css */
 
-.installations-page {
+.geo-technical-page {
   background-color: white; /* White background */
   color: black; /* Set text color to black for better visibility */
   padding: 100px;
 }
 
-.installations-gallery-container {
+.geo-technical-gallery-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.installations-preview {
+.geo-technical-preview {
   display: flex;
   justify-content: center;
   gap: 15px; /* Adjust the gap between thumbnails */
@@ -30,20 +30,20 @@
   border: 2px solid #333; /* Border for active thumbnail */
 }
 
-.installations-main {
+.geo-technical-main {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.installations-gallery-image {
+.geo-technical-gallery-image {
   max-width: 100%;
   max-height: 75vh;
   object-fit: contain;
 }
 
 /* Style for navigation buttons */
-.installations-gallery-container button {
+.geo-technical-gallery-container button {
   background-color: #fff;
   border: 1px solid #333;
   border-radius: 5px;
@@ -54,7 +54,7 @@
   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
 
-.installations-gallery-container button:hover {
+.geo-technical-gallery-container button:hover {
   background-color: #333;
   color: #fff;
 }

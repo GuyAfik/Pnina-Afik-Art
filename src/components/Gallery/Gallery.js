@@ -9,7 +9,7 @@ const Gallery = () => {
     {
       id: 1,
       headline: "Paintings",
-      imageSrc: "/gallery/paintings/image8.jpg",
+      imageSrc: "/gallery/paintings/image4.jpg",
       to: "/gallery/twilight",
     },
     // {
@@ -26,9 +26,9 @@ const Gallery = () => {
     },
     {
       id: 3,
-      headline: "Installations",
-      imageSrc: "/gallery/installations/image3.jpg",
-      to: "/gallery/installations",
+      headline: "Geotechnical Cloth",
+      imageSrc: "/gallery/geoTechnicalCloth/image14.jpg",
+      to: "/gallery/geoTechnicalCloth",
     },
     {
       id: 4,

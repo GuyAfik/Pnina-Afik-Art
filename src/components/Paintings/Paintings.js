@@ -5,14 +5,12 @@ import "./Paintings.css";
 
 const Paintings = () => {
   const images = [
-    "/gallery/paintings/image1.jpg",
-    "/gallery/paintings/image2.jpg",
-    "/gallery/paintings/image3.jpg",
     "/gallery/paintings/image4.jpg",
     "/gallery/paintings/image5.jpg",
+    "/gallery/paintings/image3.jpg",
+    "/gallery/paintings/image2.jpg",
     "/gallery/paintings/image6.jpg",
     "/gallery/paintings/image7.jpg",
-    "/gallery/paintings/image8.jpg",
     "/gallery/paintings/image9.jpg",
     "/gallery/paintings/image10.jpg",
     "/gallery/paintings/image11.jpg",
