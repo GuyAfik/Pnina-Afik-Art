@@ -16,6 +16,7 @@ const GeoTechnicalCloth = () => {
     "/gallery/geoTechnicalCloth/image11.jpg",
     "/gallery/geoTechnicalCloth/image12.jpg",
     "/gallery/geoTechnicalCloth/image13.jpg",
+    "/gallery/geoTechnicalCloth/image14.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
