@@ -133,6 +133,9 @@ function AboutCard() {
             - Had established "Zurala", a group of 5 women artists of 5 different disciplines:   painting, sculpture, photography, ceramic and multi discipline art.
           </p>
            <div style={{ marginTop: "30px", textAlign: "center" }}>
+              <h4 style={{ marginBottom: "15px", color: "black" }}>
+                Installation room – part of a solo exhibition
+              </h4>
             <video
               width="100%"
               height="auto"
