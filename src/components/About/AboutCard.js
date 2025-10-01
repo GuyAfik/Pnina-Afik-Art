@@ -1,6 +1,5 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -133,6 +132,20 @@ function AboutCard() {
             <br />
             - Had established "Zurala", a group of 5 women artists of 5 different disciplines:   painting, sculpture, photography, ceramic and multi discipline art.
           </p>
+           <div style={{ marginTop: "30px", textAlign: "center" }}>
+              <h4 style={{ marginBottom: "15px", color: "black" }}>
+                Installation room – part of a solo exhibition
+              </h4>
+            <video
+              width="100%"
+              height="auto"
+              controls
+              style={{ borderRadius: "12px", boxShadow: "0 4px 12px rgba(0,0,0,0.2)" }}
+            >
+              <source src="/about/videos/gallery-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </blockquote>
       </Card.Body>
     </Card>
