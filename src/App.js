@@ -9,6 +9,7 @@ import Paintings from "./components/Paintings/Paintings";
 import GeoTechnicalCloth from "./components/GeoTechnicalCloth/GeoTechnicalCloth";
 import ClothCompositions from "./components/ClothCompositions/ClothCompositions";
 import OversizedInstallations from "./components/OversizedInstallations/OversizedInstallations";
+import OutdoorExhibitions from "./components/OutdoorExhibitions/OutdoorExhibitions";
 
 import {
   BrowserRouter as Router,
@@ -46,6 +47,7 @@ return (
           <Route path="/gallery/geoTechnicalCloth" element={<GeoTechnicalCloth />} />
           <Route path="/gallery/cloth-compositions" element={<ClothCompositions />} />
           <Route path="/gallery/oversized-installations" element={<OversizedInstallations />} />
+          <Route path="/gallery/outdoor-exhibitions" element={<OutdoorExhibitions />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
