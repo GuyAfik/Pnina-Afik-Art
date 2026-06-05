@@ -12,7 +12,6 @@ const OversizedInstallations = () => {
     "/gallery/oversizedInstallations/image6.jpg",
     "/gallery/oversizedInstallations/image7.jpg",
     "/gallery/oversizedInstallations/image8.jpg",
-    "/gallery/oversizedInstallations/image9.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
