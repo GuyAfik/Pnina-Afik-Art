@@ -14,7 +14,6 @@ const ClothCompositions = () => {
     "/gallery/clothCompositions/image8.jpg",
     "/gallery/clothCompositions/image9.jpg",
     "/gallery/clothCompositions/image10.jpg",
-     "/gallery/clothCompositions/image11.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
