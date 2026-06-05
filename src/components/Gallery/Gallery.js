@@ -26,8 +26,8 @@ const Gallery = () => {
     },
     {
       id: 3,
-      headline: "Geotechnical Cloth",
-      imageSrc: "/gallery/geoTechnicalCloth/image14.jpg",
+      headline: "Geotextile",
+      imageSrc: "/gallery/geoTechnicalCloth/image1.jpg",
       to: "/gallery/geoTechnicalCloth",
     },
     {

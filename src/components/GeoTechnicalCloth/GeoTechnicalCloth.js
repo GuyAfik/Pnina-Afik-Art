@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import "./GeoTechnicalCloth.css"; // Make sure the CSS file is renamed accordingly
+import "./GeoTechnicalCloth.css";
 
 const GeoTechnicalCloth = () => {
   const images = [
     "/gallery/geoTechnicalCloth/image1.jpg",
     "/gallery/geoTechnicalCloth/image2.jpg",
+    "/gallery/geoTechnicalCloth/image3.jpg",
     "/gallery/geoTechnicalCloth/image4.jpg",
+    "/gallery/geoTechnicalCloth/image5.jpg",
+    "/gallery/geoTechnicalCloth/image6.jpg",
+    "/gallery/geoTechnicalCloth/image7.jpg",
     "/gallery/geoTechnicalCloth/image8.jpg",
     "/gallery/geoTechnicalCloth/image9.jpg",
     "/gallery/geoTechnicalCloth/image10.jpg",
-    "/gallery/geoTechnicalCloth/image11.jpg",
-    "/gallery/geoTechnicalCloth/image12.jpg",
-    "/gallery/geoTechnicalCloth/image13.jpg",
-    "/gallery/geoTechnicalCloth/image14.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
