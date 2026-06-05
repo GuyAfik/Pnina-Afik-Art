@@ -42,6 +42,12 @@ const Gallery = () => {
       imageSrc: "/gallery/outdoorExhibitions/image1.jpg",
       to: "/gallery/outdoor-exhibitions",
     },
+    {
+      id: 6,
+      headline: "Cubes",
+      imageSrc: "/gallery/cubes/image1.jpg",
+      to: "/gallery/cubes",
+    },
   ];
 
   return (
