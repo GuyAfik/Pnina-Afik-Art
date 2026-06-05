@@ -14,6 +14,9 @@ const Paintings = () => {
     "/gallery/paintings/image9.jpg",
     "/gallery/paintings/image10.jpg",
     "/gallery/paintings/image11.jpg",
+    "/gallery/paintings/image12.jpg",
+    "/gallery/paintings/image13.jpg",
+    "/gallery/paintings/image14.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
