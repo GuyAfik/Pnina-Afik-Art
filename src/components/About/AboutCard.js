@@ -119,6 +119,8 @@ function AboutCard() {
               <br />
               SELECTED PUBLICATIONS
             </h3>
+            Texture Magazine
+            <br />
             www.saatchiart.com
             <br />
             www.artdoxa.com
