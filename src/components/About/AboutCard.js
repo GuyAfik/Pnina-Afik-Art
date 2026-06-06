@@ -16,12 +16,20 @@ function AboutCard() {
             Art graduate of Haifa University
             <h3>
               <br />
-              RECENT SOLO EXHIBITIONS
+              Selected Solo Exhibition
             </h3>
+            2026
+            <br />
+            <br />
+            "Holding the Fragments"- Palazzo Mora, Venice (Part of Personal Structures Project running alongside the Art Biennale)
+            <br />
+            <br />
             2024
             <br />
             <br />
             HOW TO VOWELIZE A VOWEL kubia (cube) 6 Tel Aviv curators: Gilit Levine Ronen, Ruthie Sagi
+            <br />
+            "Angel on Shore"- Cube 6 Gallery, Tel Aviv
             <br />
             <br />
             2023-24
@@ -48,15 +56,27 @@ function AboutCard() {
             "ONE BY ONE" EIN HOD GALLERY- EIN HOD
             <h3>
               <br />
-              RECENT GROUP EXHIBITIONS (SELECTED)
+              Selected Group Exhibitions
             </h3>
+            <br />
+            2026
+            <br />
+            <br />
+            "Conversation with a Tree"- outdoor exhibition
+            <br />
+            <br />
+            2025
+            <br />
+            <br />
+            "Oh, I am Dressed up"- outdoor exhibition
+            <br />
             <br />
             2023
             <br />
             <br />
-            "HOW TO VOELIZE" kubia 6 Gallery Tel Aviv. Curators:
+            "How to Vowelize"- Cube 6 Gallery Tel Aviv
             <br />
-            "IN REAL TIME" Gallery Shvil Hameretz 6 Tel Aviv. curator Gilit Levine Ronen
+            "In Real time"- Cube 6 Gallery Tel Aviv
             <br />
             "HERE I AM Starta Arta Gallery New York. Curator Maayan Levi
             <br />
