@@ -1,34 +1,47 @@
-/* HomeGallery.css */
-
 .home-gallery-container {
   margin-top: 50px;
-  background-color: #fff; /* Set background color to white */
-}
-
-.home-gallery-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.home-gallery-buttons button {
-  background-color: #333;
-  color: #fff;
-  border: 1px solid #333;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  padding: 10px 15px;
-  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-}
-
-.home-gallery-buttons button:hover {
   background-color: #fff;
-  color: #333;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-gallery-image {
-  height: calc(100vh - 60px);
-  width: auto;
+  max-height: calc(100vh - 60px);
+  max-width: 100%;
   object-fit: contain;
+  display: block;
+}
+
+.home-gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.home-gallery-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.home-gallery-arrow-left {
+  left: 16px;
+}
+
+.home-gallery-arrow-right {
+  right: 16px;
 }
