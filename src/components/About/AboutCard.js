@@ -116,7 +116,7 @@ function AboutCard() {
             <br />
             "Spectrum Miami"- Contemporary International Art Show, Miami, USA
             <span style={sectionStyle}>Selected Publications</span>
-            Texture Magazine
+            - Texture Magazine
             <br />
             - Art International Contemporary Magazine 2019 (print magazine)
             <br />
