@@ -4,7 +4,6 @@ import "./ExhibitionGallery.css";
 const HoldingTheFragments = () => {
   const images = [
     "/exhibitions/holdingTheFragments/image1.jpg",
-    "/exhibitions/holdingTheFragments/image2.jpg",
     "/exhibitions/holdingTheFragments/image3.jpg",
     "/exhibitions/holdingTheFragments/image4.jpg",
     "/exhibitions/holdingTheFragments/image5.jpg",
