@@ -6,7 +6,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-        <p style={{ textAlign: "justify", color: "black" }}>
+        <p style={{ textAlign: "justify", color: "black", fontSize: "0.9em" }}>
             Born, lives and works in Israel
             <br />
             Pnina.afik@gmail.com
@@ -27,7 +27,7 @@ function AboutCard() {
             2024
             <br />
             <br />
-            HOW TO VOWELIZE A VOWEL kubia (cube) 6 Tel Aviv curators: Gilit Levine Ronen, Ruthie Sagi
+            HOW TO VOWELIZE A VOWEL kubia (cube) 6 Tel Aviv
             <br />
             "Angel on Shore"- Cube 6 Gallery, Tel Aviv
             <br />
@@ -35,23 +35,23 @@ function AboutCard() {
             2023-24
             <br />
             <br />
-            "WHERE DID THE MORNING DISAPPEAR? Gan Shmuel Gallery. Curator: Orit Kulikovsky
+            "WHERE DID THE MORNING DISAPPEAR? Gan Shmuel Gallery.
             <br />
             <br />
             2021
             <br />
             <br />
-            "SHADOW OF DOUBT" Yavne Gallery. Curator: Hanita Elizur
+            "SHADOW OF DOUBT" Yavne Gallery.
             <br />
-            "HIDING PLACE" N.D. Gallery Ramat Gan. Curator: Ronit Roth Hadad
+            "HIDING PLACE" N.D. Gallery Ramat Gan.
             <br />
-            "TWILLIGHT", Gallery on the Hill- Maitar. Curator: Sheva Shaham
+            "TWILLIGHT", Gallery on the Hill- Maitar.
             <br />
             <br />
             2018
             <br />
             <br />
-            "SUPERPOSITION" TOVA OSMANN GALLEY- TEL AVIV Curator: Tova Osman
+            "SUPERPOSITION" TOVA OSMANN GALLEY- TEL AVIV
             <br />
             "ONE BY ONE" EIN HOD GALLERY- EIN HOD
             <h3>
@@ -78,29 +78,29 @@ function AboutCard() {
             <br />
             "In Real time"- Cube 6 Gallery Tel Aviv
             <br />
-            "HERE I AM Starta Arta Gallery New York. Curator Maayan Levi
+            "HERE I AM" Starta Arta Gallery New York.
             <br />
             <br />
             2022
             <br />
             <br />
-            "FALSE AWAKENING" Givat Haviva Gallery. Curator Rula Huri
+            "FALSE AWAKENING" Givat Haviva Gallery.
             <br />
             <br />
             2021
             <br />
             <br />
-            "ROOTS" Zurala group exhibition, Gallery on the Cliff, Netanya. Curators: Ruthi Sagi, Gilat Ben Arie.
+            "ROOTS" Zurala group exhibition, Gallery on the Cliff, Netanya.
             <br />
             <br />
             2020
             <br />
             <br />
-            THE NEW ATTRIBUTES. Rishon Lezion Artists House. Curator: Hanita Elizure
+            THE NEW ATTRIBUTES. Rishon Lezion Artists House.
             <br />
-            "CORONA TIME"- Gan Shmuel Gallery. Curators: Adi Yekutieli and Orit Kulikovsky
+            "CORONA TIME"- Gan Shmuel Gallery.
             <br />
-            "RORSHACH IS ALIVE AND DEAD IN TEL AVIV"- ONLINE EXHIBITION (Covid days) Curator: Hanita Elizur
+            "RORSHACH IS ALIVE AND DEAD IN TEL AVIV"- ONLINE EXHIBITION (Covid days)
             <br />
             https://www.facebook.com/hanitaelizur/photos/rpp.103224641337792/114499426876980/?type=3&theater
             <br />
@@ -108,15 +108,13 @@ function AboutCard() {
             2019
             <br />
             <br />
-            "WOMEN CREATORS"- Csstel Museum- Ma'ale Edomim Curator: Rachel Ziv
+            "WOMEN CREATORS"- Csstel Museum- Ma'ale Edomim
             <br />
-            INTERNATIONAL ART BIENNALE- Museum of Modern Art Barcelona. Curator: Dr. Salvatore Russo
+            INTERNATIONAL ART BIENNALE- Museum of Modern Art Barcelona.
             <br />
             ART EXPO NEW YORK- a contemporary art show- NEW YORK U.S.A
             ART SAN DIEGO—a contemporary art show-San Diego USA
             SPECTRUM MIAMI- CONTEMPORARY INTERNATIONAL ART SHOW, MIAMI USA
-            <br />
-            "WOMEN CREATORS"- Csstel Museum- Ma'ale Edomim Curator: Rachel Ziv
             <h3>
               <br />
               SELECTED PUBLICATIONS
