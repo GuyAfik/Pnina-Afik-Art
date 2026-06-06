@@ -11,6 +11,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { FaBrush } from "react-icons/fa";
+import { MdOutlinePhotoLibrary } from "react-icons/md";
 
 
 function NavBar() {
@@ -63,6 +64,17 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Gallery
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/exhibitions"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdOutlinePhotoLibrary style={{ marginBottom: "2px" }} />{" "}
+                Exhibitions
               </Nav.Link>
             </Nav.Item>
 

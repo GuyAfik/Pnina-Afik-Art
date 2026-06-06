@@ -11,6 +11,10 @@ import ClothCompositions from "./components/ClothCompositions/ClothCompositions"
 import OversizedInstallations from "./components/OversizedInstallations/OversizedInstallations";
 import OutdoorExhibitions from "./components/OutdoorExhibitions/OutdoorExhibitions";
 import Cubes from "./components/Cubes/Cubes";
+import Exhibitions from "./components/Exhibitions/Exhibitions";
+import WhereDidTheMorningDisappear from "./components/Exhibitions/WhereDidTheMorningDisappear";
+import HidingPlace from "./components/Exhibitions/HidingPlace";
+import HoldingTheFragments from "./components/Exhibitions/HoldingTheFragments";
 
 import {
   BrowserRouter as Router,
@@ -50,6 +54,10 @@ return (
           <Route path="/gallery/oversized-installations" element={<OversizedInstallations />} />
           <Route path="/gallery/outdoor-exhibitions" element={<OutdoorExhibitions />} />
           <Route path="/gallery/cubes" element={<Cubes />} />
+          <Route path="/exhibitions" element={<Exhibitions />} />
+          <Route path="/exhibitions/where-did-the-morning-disappear" element={<WhereDidTheMorningDisappear />} />
+          <Route path="/exhibitions/hiding-place" element={<HidingPlace />} />
+          <Route path="/exhibitions/holding-the-fragments" element={<HoldingTheFragments />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
