@@ -127,11 +127,7 @@ function AboutCard() {
             2019- International Velasquez Art Prize – Barcelona, Spain
             <span style={sectionStyle}>Main Working Positions</span>
             <br />
-            - Art teacher at Mevo'ot Yam, a professional marine studies high school (mainly for boys).
-            <br />
-            Had established an art workshop in which students were exposed to the world of art, both practical and theoretical.
-            <br />
-            Her students have acquired and practiced basic drawing, painting and sculpting skills along with history of art.
+            - Art teacher at Mevo'ot Yam, high school
             <br />
             - Art director of Netanya Municipality
             <br />
