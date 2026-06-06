@@ -6,7 +6,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-        <p style={{ textAlign: "justify", color: "black", fontSize: "0.9em" }}>
+        <p style={{ textAlign: "justify", color: "black", fontSize: "0.75em" }}>
             Born, lives and works in Israel
             <br />
             Pnina.afik@gmail.com
