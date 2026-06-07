@@ -106,7 +106,7 @@ function AboutCard() {
             2019
             <br />
             <br />
-            "Women Creators"- Csstel Museum, Ma'ale Edomim
+            "Women Creators"- Castel Museum
             <br />
             "International Art Biennale"- Museum Of Modern Art, Barcelona
             <br />
