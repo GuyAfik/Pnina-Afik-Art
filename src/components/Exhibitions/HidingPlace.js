@@ -4,7 +4,6 @@ import "./ExhibitionGallery.css";
 const HidingPlace = () => {
   const images = [
     "/exhibitions/hidingPlace/image1.jpg",
-    "/exhibitions/hidingPlace/image2.jpg",
     "/exhibitions/hidingPlace/image3.jpg",
     "/exhibitions/hidingPlace/image4.jpg",
     "/exhibitions/hidingPlace/image5.jpg",
