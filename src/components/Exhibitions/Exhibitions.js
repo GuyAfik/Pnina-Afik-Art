@@ -18,24 +18,32 @@ const Exhibitions = () => {
     },
     {
       id: 3,
-      headline: "Holding The Fragments  Palazzo Mora, Venice (Part of Personal Structures Project running alongside the Art Biennale)",
+      headline: "Holding The Fragments — Palazzo Mora, Venice",
       imageSrc: "/exhibitions/holdingTheFragments/image1.jpg",
       to: "/exhibitions/holding-the-fragments",
     },
   ];
 
   return (
-    <div className="exhibitions-container">
-      {exhibitionsData.map((item) => (
-        <Link to={item.to} key={item.id} className="exhibitions-item">
-          <h2 className="exhibitions-headline">{item.headline}</h2>
-          <img
-            src={item.imageSrc}
-            alt={item.headline}
-            className="exhibitions-image"
-          />
-        </Link>
-      ))}
+    <div className="exhibitions-page">
+      <div className="exhibitions-page-header">
+        <h1>Exhibitions</h1>
+        <p>Select an exhibition to explore</p>
+      </div>
+      <div className="exhibitions-container">
+        {exhibitionsData.map((item) => (
+          <Link to={item.to} key={item.id} className="exhibitions-item">
+            <img
+              src={item.imageSrc}
+              alt={item.headline}
+              className="exhibitions-image"
+            />
+            <div className="exhibitions-overlay">
+              <h2 className="exhibitions-headline">{item.headline}</h2>
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

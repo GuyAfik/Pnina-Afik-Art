@@ -35,35 +35,28 @@ const Cubes = () => {
       {viewMode && (
         <div className="better-view-mode">
           <button className="close-button" onClick={handleCloseViewMode}>
-            X
+            Close
           </button>
           <img
             src={images[currentIndex]}
             alt={`Image ${currentIndex + 1}`}
             className="better-view-image"
           />
-          <button className="prev-button" onClick={handlePrev}>
-            &lt; Prev
-          </button>
-          <button className="next-button" onClick={handleNext}>
-            Next &gt;
-          </button>
+          <div className="better-view-controls">
+            <button className="prev-button" onClick={handlePrev}>
+              ← Prev
+            </button>
+            <button className="next-button" onClick={handleNext}>
+              Next →
+            </button>
+          </div>
         </div>
       )}
+      <div className="cubes-page-header">
+        <h1>Cubes</h1>
+        <p>{currentIndex + 1} / {images.length}</p>
+      </div>
       <div className="cubes-gallery-container">
-        <div className="cubes-preview">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Preview ${index + 1}`}
-              className={`thumbnail ${
-                index === currentIndex ? "active" : ""
-              }`}
-              onClick={() => handleThumbnailClick(index)}
-            />
-          ))}
-        </div>
         <div className="cubes-main">
           <img
             src={images[currentIndex]}
@@ -71,6 +64,21 @@ const Cubes = () => {
             className="cubes-gallery-image"
             onClick={() => setViewMode(true)}
           />
+        </div>
+        <div className="cubes-nav">
+          <button onClick={handlePrev}>← Prev</button>
+          <button onClick={handleNext}>Next →</button>
+        </div>
+        <div className="cubes-preview">
+          {images.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Preview ${index + 1}`}
+              className={`thumbnail ${index === currentIndex ? "active" : ""}`}
+              onClick={() => handleThumbnailClick(index)}
+            />
+          ))}
         </div>
       </div>
     </div>

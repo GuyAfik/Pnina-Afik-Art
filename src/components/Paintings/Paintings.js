@@ -1,5 +1,3 @@
-// Paintings.js
-
 import React, { useState } from "react";
 import "./Paintings.css";
 
@@ -46,35 +44,28 @@ const Paintings = () => {
       {viewMode && (
         <div className="better-view-mode">
           <button className="close-button" onClick={handleCloseViewMode}>
-            X
+            Close
           </button>
           <img
             src={images[currentIndex]}
             alt={`Image ${currentIndex + 1}`}
             className="better-view-image"
           />
-          <button className="prev-button" onClick={handlePrev}>
-            &lt; Prev
-          </button>
-          <button className="next-button" onClick={handleNext}>
-            Next &gt;
-          </button>
+          <div className="better-view-controls">
+            <button className="prev-button" onClick={handlePrev}>
+              ← Prev
+            </button>
+            <button className="next-button" onClick={handleNext}>
+              Next →
+            </button>
+          </div>
         </div>
       )}
+      <div className="paintings-page-header">
+        <h1>Paintings</h1>
+        <p>{currentIndex + 1} / {images.length}</p>
+      </div>
       <div className="paintings-gallery-container">
-        <div className="paintings-preview">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Preview ${index + 1}`}
-              className={`thumbnail ${
-                index === currentIndex ? "active" : ""
-              }`}
-              onClick={() => handleThumbnailClick(index)}
-            />
-          ))}
-        </div>
         <div className="paintings-main">
           <img
             src={images[currentIndex]}
@@ -82,6 +73,21 @@ const Paintings = () => {
             className="paintings-gallery-image"
             onClick={() => setViewMode(true)}
           />
+        </div>
+        <div className="paintings-nav">
+          <button onClick={handlePrev}>← Prev</button>
+          <button onClick={handleNext}>Next →</button>
+        </div>
+        <div className="paintings-preview">
+          {images.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Preview ${index + 1}`}
+              className={`thumbnail ${index === currentIndex ? "active" : ""}`}
+              onClick={() => handleThumbnailClick(index)}
+            />
+          ))}
         </div>
       </div>
     </div>

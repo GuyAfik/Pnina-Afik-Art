@@ -1,8 +1,6 @@
-// Gallery.js
-
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Gallery.css"; // Import your CSS file for styling
+import "./Gallery.css";
 
 const Gallery = () => {
   const galleryData = [
@@ -12,12 +10,6 @@ const Gallery = () => {
       imageSrc: "/gallery/paintings/image4.jpg",
       to: "/gallery/twilight",
     },
-    // {
-    //   id: 2,
-    //   headline: "Branches And Stockings",
-    //   imageSrc: "/gallery/BranchesAndStockings/image1.jpg",
-    //   to: "/gallery/branches-and-stockings",
-    // },
     {
       id: 2,
       headline: "Cloth Compositions",
@@ -51,18 +43,26 @@ const Gallery = () => {
   ];
 
   return (
-    
-    <div className="gallery-container">
-      {galleryData.map((item) => (
-        <Link to={item.to} key={item.id} className="gallery-item">
-          <img
-            src={item.imageSrc}
-            alt={item.headline}
-            className="gallery-image"
-          />
-          <h2 className="gallery-headline">{item.headline}</h2>
-        </Link>
-      ))}
+    <div className="gallery-page">
+      <div className="gallery-page-header">
+        <h1>Gallery</h1>
+        <p>Select a collection to explore</p>
+      </div>
+      <div className="gallery-container">
+        {galleryData.map((item) => (
+          <Link to={item.to} key={item.id} className="gallery-item">
+            <img
+              src={item.imageSrc}
+              alt={item.headline}
+              className="gallery-image"
+            />
+            <div className="gallery-overlay">
+              <h2 className="gallery-headline">{item.headline}</h2>
+            </div>
+            <div className="gallery-item-divider" />
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

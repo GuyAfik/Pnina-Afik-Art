@@ -1,4 +1,3 @@
-// OversizedInstallations.js
 import React, { useState } from "react";
 import "./OversizedInstallations.css";
 
@@ -41,45 +40,28 @@ const OversizedInstallations = () => {
       {viewMode && (
         <div className="better-view-mode">
           <button className="close-button" onClick={handleCloseViewMode}>
-            X
+            Close
           </button>
           <img
             src={images[currentIndex]}
             alt={`Image ${currentIndex + 1}`}
             className="better-view-image"
-            onClick={handleCloseViewMode} // Close view mode when clicking on the image
           />
-          <button className="prev-button" onClick={handlePrev}>
-            &lt; Prev
-          </button>
-          <button className="next-button" onClick={handleNext}>
-            Next &gt;
-          </button>
+          <div className="better-view-controls">
+            <button className="prev-button" onClick={handlePrev}>
+              ← Prev
+            </button>
+            <button className="next-button" onClick={handleNext}>
+              Next →
+            </button>
+          </div>
         </div>
       )}
-
-      <h1>Oversized Installations</h1>
-      <p>
-        These installations are created by using various materials such as
-        textiles, nets, and jute, which have undergone processes of cutting,
-        sewing, dyeing, hardening and combined with branches and ropes. These
-        artworks elevate the essence and presence of worldwide women.
-      </p>
-
+      <div className="oversized-installations-page-header">
+        <h1>Oversized Installations</h1>
+        <p>{currentIndex + 1} / {images.length}</p>
+      </div>
       <div className="oversized-installations-gallery-container">
-        <div className="oversized-installations-preview">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Preview ${index + 1}`}
-              className={`thumbnail ${
-                index === currentIndex ? "active" : ""
-              }`}
-              onClick={() => handleThumbnailClick(index)}
-            />
-          ))}
-        </div>
         <div className="oversized-installations-main">
           <img
             src={images[currentIndex]}
@@ -87,6 +69,21 @@ const OversizedInstallations = () => {
             className="oversized-installations-gallery-image"
             onClick={() => setViewMode(true)}
           />
+        </div>
+        <div className="oversized-installations-nav">
+          <button onClick={handlePrev}>← Prev</button>
+          <button onClick={handleNext}>Next →</button>
+        </div>
+        <div className="oversized-installations-preview">
+          {images.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Preview ${index + 1}`}
+              className={`thumbnail ${index === currentIndex ? "active" : ""}`}
+              onClick={() => handleThumbnailClick(index)}
+            />
+          ))}
         </div>
       </div>
     </div>
